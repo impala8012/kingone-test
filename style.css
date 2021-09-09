@@ -25,6 +25,14 @@ body {
   background-image: url(./img/stall_image_green.png);
   position: relative;
 }
+.prev-bottom{
+  left:277px;
+  top:67.9px;
+  width: 66.7px;
+  height: 66.7px;
+  background-image: url(./img/prev_bottom.png);
+  position: absolute;
+}
 .logo {
   width: 124.9px;
   height: 81.9px;
@@ -92,6 +100,29 @@ body {
   left: 537.8px;
   top: 838.8px;
 }
+
+.hint-hand {
+  width: 43.9px;
+  height: 54.9px;
+  position: absolute;
+  background-image: url(./img/hint_hand.png);
+  left: 836.8px;
+  top: 912.8px;
+}
+
+.hint-hand:hover{
+  cursor: pointer;
+}
+
+.web{
+  width: 52.6px;
+  height: 52.6px;
+  left: 1301px;
+  top: 403.2px;
+  position: absolute;
+  z-index: 1;
+  background-image: url(./img/web.png);
+}
 .acr {
   width: 273.1px;
   height: 353.8px;
@@ -105,6 +136,36 @@ body {
   position: absolute;
   width: 273.1px;
   height: 353.8px;
-  left: 1125.6px;
+  right: 24.3px;
   top: 450px;
+}
+
+.arc-info-word{
+  margin-bottom: 25px;
+}
+
+.arc-info-title{
+  width: 57.4px;
+  height: 21.1px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.arc-info-title:first-child{
+  margin-top: 7px;
+}
+
+.arc-into-desc {
+  width: 215px;
+  height: 36.3px;
+  margin: 0 0 16.3px;
+  font-family: NotoSansCJKTC;
+  font-size: 13.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.59;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
 }
