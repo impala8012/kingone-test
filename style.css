@@ -1,0 +1,110 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.main-bg {
+  background-image: url(./img/background\ _image.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.stall-image {
+  width: 1428px;
+  height: 966.2px;
+  margin-top: 68.2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./img/stall_image_green.png);
+  position: relative;
+}
+.logo {
+  width: 124.9px;
+  height: 81.9px;
+  background-image: url(./img/logo.png);
+  position: absolute;
+  left: 399px;
+  top: 57.6px;
+}
+
+.banner {
+  margin: 40px 309.3px 848.3px 500px;
+  position: absolute
+}
+
+.title-ch {
+  width: 561.3px;
+  height: 51px;
+  margin: 20px 20.8px 15.5px 32.8px;
+  font-family: MicrosoftYaHeiBold-GBpc-EUC-H;
+  font-size: 41.7px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 8.35px;
+  text-align: center;
+  color: #333;
+}
+
+.title-en {
+  width: 563.3px;
+  height: 34px;
+  margin: 15.5px 18.8px 225.3px 32.8px;
+  font-family: MicrosoftYaHeiGBpc-EUC-H;
+  font-size: 30.1px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.81;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+}
+.company-product {
+  width: 170.2px;
+  height: 170.2px;
+  background-image: url(./img/company_product.png);
+  position: absolute;
+  top: 418.8px;
+  left: 51.3px;
+}
+.company {
+  background-image: url(./img/company.png);
+  width: 713.7px;
+  height: 399.6px;
+  position: absolute;
+  top: 392.7px;
+  left: 325px;
+}
+.product-list {
+  width: 357.1px;
+  height: 87.6px;
+  position: absolute;
+  background-image: url(./img/product_list.png);
+  left: 537.8px;
+  top: 838.8px;
+}
+.acr {
+  width: 273.1px;
+  height: 353.8px;
+  background-image: url(./img/acr_image.png);
+  position: absolute;
+  left: 1106.6px;
+  top: 407px;
+}
+
+.arc-info {
+  position: absolute;
+  width: 273.1px;
+  height: 353.8px;
+  left: 1125.6px;
+  top: 450px;
+}
